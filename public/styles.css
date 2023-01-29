@@ -1,0 +1,186 @@
+h1{  
+ font-family: 'Aboreto';   
+}
+
+.subHead{
+font-family: 'Aboreto', cursive;
+font-family: 'PT Serif', serif;
+position: absolute;
+margin:30px 0 0 55px;
+}
+
+.drawing{
+   width:100%;
+   height:100vh;
+   object-fit:cover;
+}
+
+.profilePic{
+    
+   width:50%;
+   height:50%;
+   position:relative;
+   margin:25px auto 0 auto;
+}
+
+.pic{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+    margin-top: 20px;
+}
+.intro{
+    background-color: #0F3D3E;
+    color:#E2DCC8;
+   
+   
+}
+.name{
+font-size:4rem !important;
+ margin: 100px 50px 0;
+padding-top:50px;
+ display:inline-block;
+}
+
+
+.btnSec{
+    height:100vh;
+    background-image: url("/drawings/draftingBg.webp");
+    color:#0F3D3E;  
+}
+
+.btnArrange{
+    
+    position:relative;
+    width:80%;
+    height:40%;
+    margin:30px auto 0 auto;
+}
+
+.btnGroup{
+    padding-top:55px;
+}
+.imageProps{
+    width:100%;
+    object-fit: contain;
+    height:100vh;
+}
+.heading{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+
+.contactHead{
+    color:#0E5E6F;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom:30px;
+}
+
+.formElement{
+    position: relative;
+    width:50%;
+    height:480px;
+    margin: 0 auto 0 auto;
+    /* margin-left: 260px; */
+    background-color: #FFEFD6;
+    margin-bottom: 30px;
+
+}
+.abtmainContent{
+    position: relative;
+    width:70%;
+    height:500px;
+    margin: 50px auto 50px auto;
+    /* margin-left: 260px; */
+    
+    margin-bottom: 30px;    
+
+/* padding-top:50px; */
+}
+.form-body{
+    position: absolute;
+}
+.formPadding{
+    padding-top: 25px;
+}
+.content{
+    margin-left:30px;
+    padding:0
+}
+.icon{
+position:fixed;
+height:100vh;
+display:flex;
+flex-direction: column;
+justify-content:first baseline;
+transform:translate(-290px, 0);
+z-index: 1;
+}
+.icon a{
+    color:#30475E;
+    background:#E6DDC4 ;
+    font-size:20px;
+    font-weight:600;
+    text-decoration: none;
+    display: block;
+    margin:5px;
+    padding: 20px;
+    width:300px;
+    text-align: right;
+    /* border-radius: 50px; */
+    transition:1s;
+    transition-property:transform;
+}
+
+.icon a:hover{
+    transform: translate(140px,0);
+}
+
+.icon i{
+    margin-left: 10px;
+    font-size:30px;
+    width:30px;
+    height:30px;
+}
+
+.lnkdn{
+    color: #0072b1;
+}
+
+.phn{
+    color: #25D366;
+}
+.secondIntro{
+padding-top: 6px;
+}
+.firstIntro{
+font-family: 'Aboreto', cursive;
+font-family: 'PT Serif', serif;
+text-align:right;
+}
+@media screen and (max-width:992px){
+    .firstIntro{
+        text-align: right;
+        
+    }
+    .secondIntro{
+        text-align:left;
+    }
+}
+    @media screen and (max-width:600px){
+    .firstIntro{
+        text-align: center;
+        
+    }
+    .secondIntro{
+        text-align: justify;
+    }
+    }
+
+    .aboutSection{
+     background-color:cadetblue   
+    }
+
+   
